@@ -1,0 +1,37 @@
+# Data — never commit (use Kaggle / Drive links instead)
+data/
+*.tif
+*.png
+*.zip
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+experiments/*/checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# wandb
+wandb/
+
+# Submissions (keep only the one we submit)
+submission_*.csv
+!submission.csv
